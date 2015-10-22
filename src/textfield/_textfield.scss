@@ -73,7 +73,8 @@
   }
 
   .mdl-textfield.is-invalid & {
-    border-color: $input-text-error-color;
+    // border-color: $input-text-error-color;
+    border-color: $palette-teal-500;
     box-shadow: none;
   }
 
@@ -157,13 +158,15 @@
   }
 
   .mdl-textfield.is-invalid &:after {
-    background-color: $input-text-error-color;
+    // background-color: $input-text-error-color;
+    background-color: $palette-teal-500;
   }
 }
 
 // TextField Error.
 .mdl-textfield__error {
-  color: $input-text-error-color;
+  // color: $input-text-error-color;
+  color: $palette-teal-500;
   position: absolute;
   font-size: $input-text-floating-label-fontsize;
   margin-top: 3px;
